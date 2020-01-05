@@ -1,0 +1,177 @@
+/* --------------- 1.1 Spacer --------------- */
+
+.spacer-5,
+.spacer-10,
+.spacer-20,
+.spacer-30,
+.spacer-40,
+.spacer-50,
+.spacer-60,
+.spacer-70,
+.spacer-80,
+.spacer-90,
+.spacer-100 {
+    display: block;
+    clear: both;
+    overflow: hidden;
+}
+
+
+@media screen and (max-width: 768px) {
+    .spacer-20 {
+        visibility:visible;
+    }
+}
+
+@media screen and (max-width: 768px) {
+.spacer-70 .spacer-50 {
+        visibility: hidden;
+        clear: both;
+        float: left;
+        margin: 10px auto 5px 20px;
+        width: 28%;
+        display: none;
+    }
+}
+
+
+.spacer-5 {
+    height: 5px
+}
+
+.spacer-10 {
+    height: 10px
+}
+
+.spacer-20 {
+    height: 20px
+}
+
+.spacer-30 {
+    height: 30px
+}
+
+.spacer-40 {
+    height: 40px
+}
+
+.spacer-50 {
+    height: 50px
+}
+
+.spacer-60 {
+    height: 60px
+}
+
+.spacer-70 {
+    height: 70px
+}
+
+.spacer-80 {
+    height: 80px
+}
+
+.spacer-90 {
+    height: 90px
+}
+
+.spacer-100 {
+    height: 100px
+}
+
+
+/*Services Section*/
+
+.services-other .img-box {
+    
+    margin-right: 22px;
+    display: inline-block;
+    width: 78px;
+    height: 78px;
+    line-height: 74px;
+    text-align: center;
+    border: 2px solid #FFDA44;
+}
+
+.services-other .services-info {
+    width: 100%;
+    padding-left: 100px;
+}
+
+.services-other .services-info h4 {
+    margin: 0 0 10px;
+    line-height: 1;
+}
+
+.services-other .services-info p {
+    margin-bottom: 0;
+}
+
+.row.service-list {
+    margin: 0;
+}
+
+@media all and (max-width: 1099px) {
+    .row.services-other {
+        text-align: center;
+    }
+
+    .services-other .img-box {
+        float: none;
+        margin: 0;
+    }
+
+    .services-other .services-info {
+        padding: 30px 0 0;
+    }
+}
+
+@media all and (max-width: 991px) {
+    .row.services {
+        text-align: center;
+    }
+
+    .row.services>div {
+        width: 500px;
+        margin: 0 auto 40px;
+        max-width: 100%;
+    }
+
+    .row.services>div:last-child {
+        margin-bottom: 0;
+    }
+
+    .row.services-other>div {
+        margin-bottom: 45px;
+    }
+
+    .row.services-other .clearfix {
+        display: none;
+    }
+
+    .row.services-other>div:last-child {
+        margin-bottom: 0;
+    }
+
+    .about-services .row.services {
+        text-align: left;
+    }
+
+    .about-services .row.services>div {
+        width: 50%;
+    }
+
+    .about-services .row.services a {
+        display: block;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .about-services .row.services {
+        text-align: center;
+    }
+
+    .about-services .row.services>div {
+        width: 500px;
+    }
+}
